@@ -1,0 +1,152 @@
+*{margin:0px; padding:0px}
+header, footer,section,nav{display:blocks}
+body{
+	min-height: 700px;
+	background:url(../img/background.jpg) 
+
+}
+.container{
+	margin:0 auto; width:1000px;font-family:arial;margin-top:20px
+}
+h1, h2 {
+
+color: white;
+font-family: Helvetica,Arial;
+font-weight: bold;
+line-height: 1.1em;
+padding-bottom: 5px;
+font-size: 28px;
+}
+
+h2 a{
+color: black;
+text-decoration:none;	
+}
+h2 a:hover{
+color: #009900;
+text-decoration:none;	
+}
+
+.roundEdge
+{border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;}
+
+
+#main, #header, #nav
+{
+overflow:auto;
+}
+#nav{background-color:#555}
+
+#footer
+{
+height:40px;
+border-top:3px solid #333333;
+}
+#footer p
+{
+	padding:20px 0px 20px 0px;
+	font-size:12px;
+}
+
+#content
+{
+	border-radius: 10px;
+	padding: 20px;
+	background-color: white;
+    float:left;
+    width:700px;
+
+}
+#content article
+{
+	color: black;
+margin-bottom:20px;
+}
+
+#sidebar
+{
+	margin-left:10px;
+    float:right;
+    width:250px;
+	background-color:#dedede;
+	min-height:400px;
+	text-align:center;
+}
+
+#nav
+{
+overflow:auto;
+}
+#nav ul
+{
+list-style:none;
+height:30px;
+padding:0px;
+margin:0px;
+}
+#nav ul li
+{
+float:left;
+
+font-size:12px;
+font-weight:bold;
+}
+
+
+#nav ul li a
+{
+color:#ffffff;
+text-decoration:none;
+display:block;
+padding:12px;
+text-align:center;
+min-width:100px;
+}
+#nav ul li a:hover
+{
+
+	background-color:#339900;
+	color:#FFF;
+}
+
+#logo
+{
+	align-items: center;
+	height: 150px;
+	width: 950px;
+	margin:10px;
+}
+
+#ads
+{
+	text-align:center;
+}
+p{
+	padding: 20px;
+	margin-top: 20px;
+}
+  .demo-card-square.mdl-card {
+
+    width: 200px;
+    height: 320px;
+    float: left;
+    margin: 1rem;
+    position: relative;
+  }
+  
+  .demo-card-square.mdl-card:hover {
+
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+  }
+  
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background: #03a9f4;
+  }
+  
+  .demo-card-square > .mdl-card__accent {
+    background: #ff9800;
+  }
+ 
